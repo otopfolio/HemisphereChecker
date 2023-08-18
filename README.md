@@ -17,7 +17,7 @@
 
 <h2 id="demo">Demo</h2>
 
-<p>Link to a live demo (https://otopfolio.github.io/HemisphereChecker/): <a href="#">Hemisphere Checker Demo</a></p>
+<p>Link to a live demo https://otopfolio.github.io/HemisphereChecker/: <a href="#">Hemisphere Checker Demo</a></p>
 
 <h2 id="screenshots">Screenshots</h2>
 
