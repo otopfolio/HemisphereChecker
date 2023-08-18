@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./conditionals.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+  <div id="darkModeToggle">
+    <i class="fas fa-adjust"></i>
+  </div>
+  <h1> Check your Hemisphere and get funfacts </h1>
+    <h2>Step 1: Check your coordinate</h2>
+          <h3>How to Get Coordinates from Google Maps:</h3>
+
+          <ol>
+            <li>On your computer, open <strong>Google Maps</strong>.</li>
+            <li>Right-click the place or area on the map. This action will open a pop-up window.</li>
+            <li>You can find your latitude and longitude in decimal format at the top of the pop-up window.</li>
+            <li>To copy the coordinates automatically, left-click on the displayed latitude and longitude.</li>
+          </ol>
+          
+          <h3>Tips:</h3>
+          <ul>
+            <li>For the coordinates to work properly use the decimal degree with decimals and comma</li>
+            <li>List latitude coordinates before longitude coordinates.</li>
+            <li>Ensure that the first number in your latitude coordinate is between -90 and 90.</li>
+            <li>Make sure that the first number in your longitude coordinate is between -180 and 180.</li>
+          </ul>
+
+  <hr>
+  <h2>Step 2: Please provide your Coordinate </h2>
+  Coordinates: <input type="text" id="coordinates" placeholder="Put your Latitude, Longitude"> |
+<button class="buttons" id="checkButton">Check the hemisphere</button>
+<br>
+<br>
+<div id="latMessage"></div>
+<div id="lonMessage"></div>
+
+  <!-- <P> <b>Please provide your LATITUDE to check your hemisphere (Northern/Southern)</b></P>
+  LATITUDE : <input type="number" id="latOfUser", placeholder="Put your Latitude"> |
+  <button class ="buttons" id = "checkButtonlat"> check the hemisphere </button>
+  <div id="latMessage"></div>
+  <br>
+  <br>
+  <hr>
+  <br>
+  <P> <b>Please provide your <b>LONGITUDE</b> to check your hemisphere (Western/Eastern)  </b> </P>
+  LONGITUDE : <input type="number" id="longOfUser", placeholder="Put your Longitude "> |
+  <button class ="buttons" id = "checkButtonlon"> check the hemisphere </button>
+  <div id="lonMessage"></div> -->
+  <script src="./conditionals2.js"></script>
+</body>
+<footer>
+  <p>
+    <a href="https://www.linkedin.com/in/tosin-orenaike/" target="_blank"> Linkedin </a> |
+    <a href="https://github.com/Otomisin"target="_blank" > Github </a> |
+    <a href="https://twitter.com/orenaiket" target="_blank"> X </a>
+  </p>
+
+  <p>==== Designed with <span class="heart">&#x2764;</span> <b style="color: black;">otomisin</b> ====</p>
+</footer>
+</html>
