@@ -94,3 +94,15 @@ if (latMessage === "Equator") {
 messageDiv.style.color = "green";
 
 });
+
+// DarkMode
+document.addEventListener("DOMContentLoaded", function() {
+    const darkModeToggle = document.getElementById("darkModeToggle");
+    const body = document.body;
+    const footer = document.querySelector("footer");
+  
+    darkModeToggle.addEventListener("click", function () {
+      body.classList.toggle("dark-mode");
+      footer.classList.toggle("dark-mode");
+    });
+  });
