@@ -28,7 +28,7 @@
 
 <ol>
     <li>Clone this repository:</li>
-    <pre>git clone https://github.com/your-username/hemisphere-checker.git</pre>
+    <pre>git clone https://github.com/otopfolio/hemisphere-checker.git</pre>
     <li>Navigate to the directory:</li>
     <pre>cd hemisphere-checker</pre>
     <li>Open <code>index.html</code> in your preferred browser.</li>
